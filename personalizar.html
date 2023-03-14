@@ -7,6 +7,7 @@
     <title>Pedidos</title>
     <link rel="stylesheet" href="./pedir.css">
     <link rel="stylesheet" href="/registrocli.css">
+    <link rel="stylesheet" href="/personalizar.css">
     <script src="/registro.js"></script>
 
 </head>
@@ -19,6 +20,7 @@
                 <img class="imagen" src="/imagenes/logo.png">
             
           </span>
+           
           <div class="elemento"><a href="/docs/inicio.html">INICIO</a></div>
           <div class="elemento"><a href="/pedir.html"> PEDIR </a></div>
           <div  class="elemento"><a href="/personalizar.html"> PERSONALIZALO</a></div>
@@ -38,7 +40,7 @@
 
      </div>
         </header>
-        <main>
+        <main><h1>Produtos PERSONALIZALO</h1>
             <div class="menu2">
                 <div class="panes">
               
@@ -63,61 +65,41 @@
               
                
                 <div class="submemu">
-                  <img class="pan1" src="./imagenes/pan2.jpeg">
                 </div>
                 <div class="submenu">
-                   <h2>Crosaints</h2>
-                <p>pan de masa madre</p>
+                  <div class="formulario">
+                     <label for="correo">
+                        <input type="text" id="correo" name="correo" placeholder="tipo de relleno" required autocomplete=""/>
+                     </label>
+                     <label for="correo">
+                        <input type="text" id="correo" name="correo" placeholder="tipo de masa" required autocomplete=""/>
+                     </label>
+                     <label for="correo">
+                        <input type="text" id="correo" name="correo" placeholder="cantidad" required autocomplete=""/>
+                     </label>
+                     
+                     <label><p>fecha de entrega: </p></label>
+                     <input type="date"/>
+                  </div></br>
                 <div class="pedir">
                   <button  class="registropa" type="submit" name="bregistro">
                     
             
-                     <a href="javascript:abrir()">Agregar</a> 
+                     <a href="javascript:abrir()">Personalizar</a> 
                   </div>
-              
-            </div>
-             </div>
-            </div>
-             <div class="menu3">
-                <div class="panes">
-              
-               
-                 <div class="submemu">
-                   <img class="pan1" src="./imagenes/pan1.jpg">
-                 </div>
-                 <div class="submenu">
-                    <h2>Crosaints</h2>
-                 <p>pan de masa madre</p>
-                 <div class="pedir">
-                  <button  class="registropa" type="submit" name="bregistro">
+
+                  <div class="pagos"><button  class="registropa" type="submit" name="bregistro">
                     
             
-                     <a href="javascript:abrir()">Agregar</a> 
-                  </div>
-               
+                     <a href="javascript:abrir1()">PAGAR</a>
+                   </div>
+
+                 
+              
+            </div>
              </div>
-              </div>
+            </div>
              
-              <div class="panes">
-              
-               
-                <div class="submemu">
-                  <img class="pan1" src="./imagenes/pan2.jpeg">
-                </div>
-                <div class="submenu">
-                   <h2>Crosaints</h2>
-                <p>pan de masa madre</p>
-                <div class="pedir">
-                  <button  class="registropa" type="submit" name="bregistro">
-                    
-            
-                     <a href="javascript:abrir()">Agregar</a> 
-                  </div>
-              
-            </div>
-             </div>
-          
-         </div>
          <div class="ventana" id="vregistro">
           <div class="cerrar"><a href="javascript:cerrar()"><div>X</div></a> </div> 
           
@@ -128,7 +110,7 @@
                 <a href="/pedir.html">Seguir comprando</a> 
              
              <button class="home" name="home">
-              <a href="javascript:abrir1()">PAGAR</a> 
+                <a href="/docs/inicio.html">Pagar</a> 
              </div>
            </div>
            <div class="ventana" id="vingreso">

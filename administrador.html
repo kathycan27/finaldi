@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia </title>
+    <link rel="stylesheet" href="/inicio.css">
+    <link rel="stylesheet" href="/administrados.css">
+
+</head>
+<body>
+  <header>
+    
+        <div class="menu">
+          <span>
+           
+                <img class="imagen" src="/imagenes/logo.png">
+            
+          </span>
+           
+            <div class="elemento"><a href="/docs/inicio.html">INICIO</a></div>
+            <div class="elemento"><a href="/pedir.html"> PEDIR </a></div>
+            <div  class="elemento"><a href="/personalizar.html"> PERSONALIZALO</a></div>
+            <div class="elemento"><a href="/contactanos.html"> CONTACTANOS</a></div>
+            <div  class="elemento"><a href="/logincli.html">INICIO SESIÓN</a></div>
+         
+        </div>
+     
+        </header>
+        <main> 
+
+            <div class="container">
+                <h1>Panadería - CRUD de productos</h1>
+                <div class="form-container">
+                    <h2>Añadir nuevo producto</h2>
+                    <form>
+                        <label for="nombre">Nombre del producto:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="precio">Precio:</label>
+                        <input type="number" id="precio" name="precio" required>
+                        <label for="descripcion">Descripción:</label>
+                        <textarea id="descripcion" name="descripcion" required></textarea>
+                        <button type="submit">Añadir</button>
+                    </form>
+                </div>
+                <div class="table-container">
+                    <h2>Listado de productos</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Descripción</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pan de centeno</td>
+                                <td>2.50€</td>
+                                <td>Pan elaborado con harina de centeno.</td>
+                                <td>
+                                    <button class="editar">Editar</button>
+                                    <button class="eliminar">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bollería variada</td>
+                                <td>1.20€</td>
+                                <td>Assortment of croissants, muffins, and pastries.</td>
+                                <td>
+                                    <button class="editar">Editar</button>
+                                    <button class="eliminar">Eliminar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pan integral</td>
+                                <td>1.80€</td>
+                                <td>Pan elaborado con harina integral.</td>
+                                <td>
+                                    <button class="editar">Editar</button>
+                                    <button class="eliminar">Eliminar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </main>
+    <footer>
+    </br>
+      <div class="final">
+      
+      <div class="contacto">
+        <div class="mapa">
+          <img class="map" src="/imagenes/mapa.png">
+        </div>
+          
+       <div class="redes">
+        <h3>Contactos</h3>
+           <div class="contact">
+           <img class="whatsapp" src="imagenes/what.png"></br>
+           <a class=" cont"href="https://wa.me/593999759756?text=Hola%3F+Quiero+mas+informacion">Enlace a whatsapp</a>
+
+          </div>
+          <div class="contact">
+          <img class="instagram" src="imagenes/insta.jpg"></br>
+           <a class=" cont" href="https://www.instagram.com/kathy.ivonne27/">Enlace a instagram</a>
+          </div>
+
+        </div>        </div>
+      </div>
+      <div class="administrador"><button><a href="/loginasdmi.html"> administrador</a></button></div>
+
+    </footer>
+      
+
+    
+</body>
+</html>
