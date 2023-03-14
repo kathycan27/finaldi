@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos</title>
     <link rel="stylesheet" href="./pedir.css">
+    <link rel="stylesheet" href="/registrocli.css">
+    <script src="/registro.js"></script>
 
 </head>
 <body>
@@ -18,11 +20,11 @@
             
           </span>
            
-            <div class="elemento">INICIO</div>
-            <div class="elemento">PEDIR</div>
+            <div class="elemento"><a href="/docs/inicio.html">INICIO</a></div>
+            <div class="elemento"><a href="/pedir.html">PEDIR</a></div>
             <div  class="elemento">PERSONALIZALO</div>
             <div class="elemento">CONTACTANOS</div>
-            <div  class="elemento">INICIO SESIÓN</div>
+            <div  class="elemento"><a href="/logincli.html">INICIO SESIÓN</a></div>
          
         </div>
      <div class="imagenprincipal">
@@ -49,7 +51,12 @@
                  <div class="submenu">
                     <h2>Crosaints</h2>
                  <p>pan de masa madre</p>
-                 <button>Agregar</button>
+                 <div class="registro">
+                  <button  class="registropa" type="submit" name="bregistro">
+                    
+            
+                     <a href="javascript:abrir()">Agregar</a> 
+                  </div>
                
              </div>
               </div>
@@ -98,7 +105,21 @@
              </div>
             
          </div>
+         <div class="ventana" id="vregistro">
+          <div class="cerrar"><a href="javascript:cerrar()"><div>X</div></a> </div> 
+          
+          Registro Exitoso
+         
+          <div class="inicio">
+             <button class="iniciopa" name="inicio">
+                <a href="/pedir.html">Seguir comprando</a> 
+             
+             <button class="home" name="home">
+                <a href="/docs/inicio.html">Pagar</a> 
+             </div>
+           </div>
         </main>
+        
         
     
 </body>

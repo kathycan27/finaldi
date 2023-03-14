@@ -4,7 +4,8 @@
     margin: 0%;
 }
 a{
-    font-style: none;
+  text-decoration: none;
+  color: antiquewhite;
 }
 header{
   background-color:orange;
