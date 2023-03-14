@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+  background-color:orange;
+}
+
+.menu{width: 100%;
+ 
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(236, 104, 43);
+    align-items: center;
+    font-style: italic;
+    font-size: 150%;
+    
+    
+    }
+    .elemento{
+      width:20%;
+      color:antiquewhite;
+      }
+    
+        .imagen{
+            width: 80%;    
+        }
+        nav{
+          display: block;
+          flex-direction: row;
+        }
+       
+        .menu nav ul li{
+          display: block;
+          margin: 0;
+          padding: 0;
+          position: relative;
+        }
+
+        .imagenc {
+            top: 120px;
+            left: 0px;
+            width: 100%;
+            height: 443px;
+            position: absolute;
+            border-color: transparent;
+            margin: 0;
+            padding: 0;
+          }
+          .menulogo {
+            top: 511px;
+            left: 720px;
+            width: 45px;
+            height: 58px;
+            display: flex;
+        
+            position: absolute;
+            align-items: flex-start;
+            flex-shrink: 0;
+            border-color: transparent;
+          }
+          .menu1 {
+            top: 261px;
+            left: 26px;
+            color:aliceblue;
+            width: 365px;
+            height: auto;
+            position: absolute;
+            font-size: 35px;
+            align-self: auto;
+            font-style: Bold;
+            text-align: left;
+            font-family: Poppins;
+            font-weight: 700;
+            line-height: normal;
+            font-stretch: normal;
+            margin-right: 0;
+            margin-bottom: 0;
+            text-decoration: none;
+          }
+        main{
+          position: absolute;
+          padding-top:0;
+          font-size: 120%;
+          width: 100%;
+          align-items: center;
+          background-color: antiquewhite;
+          margin-top: 30%;
+        }
+        .promos
+        {display:flex;
+          flex-direction: row;
+          align-items: center;
+          font-style: italic;
+          font-size: 150%;
+          width: 120%;
+          
+          
+        }
+        .imagenespromo{
+          width: 100%;
+        }
+        h1{
+          align-items: center;
+          text-align: center;
+          font-size:200% ;
+        }
+        .menu2{
+          margin: 0;
+ width: 100%;
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          font-style: italic;
+          font-size: 150%; padding-left: 2%;
+          
+        ;
+          
+          
+          }
+        .panes,.pasteles{
+ width:50%;
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          font-style:initial;
+          font-size: 150%;
+          border-radius: 20px;
+          border-color: azure;
+         padding-right: 10px;
+          
+          }
+          .imagenprincipal
+          {
+            display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: italic;
+    font-size: 150%;
+          }
+          .submenu{
+            
+            padding-left: 20px;
+            }
+            button{
+            background-color: rgb(222, 151, 9);
+            border-radius: 20px;
+            border-style: none;
+            width: 110%;
+            font-size: 100%;
+            color: antiquewhite;
+            }
+            footer{
+              padding-top: 15%;
+            }
+            h3{
+              text-align: center;
+            }
+            
+            .contacto
+            {
+             
+              padding-top: 70%;
+              margin: 0;
+            width: 100%;
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          font-style: italic;
+            font-size: 150%; padding-left: 2%; 
+            }
+            .redes
+            {
+              margin: 0;
+            width: 100%;
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          font-style: italic;
+            font-size: 150%; padding-left: 2%; 
+            background-color: antiquewhite;
+            }
+            .map
+            {
+              width: 58%;
+              background-color: antiquewhite;
+            }
+            .whatsapp
+{
+  height: 200px;
+    
+    padding-left: 250px;
+}
+.instagram
+{
+    height: 200px;
+    padding-left: 20%;;
+}
+.final
+{
+text-align: center;
+
+}
+.cont
+{
+  padding-left: 30px;
+}
